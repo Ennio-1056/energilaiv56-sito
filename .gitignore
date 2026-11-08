@@ -10,3 +10,7 @@ Come modificare i testi del sito.png
 # Presentazioni di lavoro (PowerPoint)
 *.ppt
 *.pptx
+
+# ...tranne quelle messe volutamente in 'scarica'
+!scarica/*.ppt
+!scarica/*.pptx
