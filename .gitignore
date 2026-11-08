@@ -3,3 +3,10 @@
 
 # Promemoria personale, non fa parte del sito
 Come modificare i testi del sito.png
+
+# Documenti Word di lavoro: il testo si pubblica come pagina, non il file
+*.docx
+
+# Presentazioni di lavoro (PowerPoint)
+*.ppt
+*.pptx
