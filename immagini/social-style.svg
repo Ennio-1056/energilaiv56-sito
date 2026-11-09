@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 740" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+  <title id="t">Il modello dei Social Style</title>
+  <desc id="d">Schema con due assi: l'assertività, da Ask a Tell, e la reattività emotiva, da Control a Emote. Incrociandoli si ottengono quattro stili: analitico, direttivo, amichevole ed espressivo.</desc>
+  <defs>
+    <marker id="freccia" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#26302b"/>
+    </marker>
+  </defs>
+  <rect width="800" height="740" fill="#ffffff"/>
+
+  <text x="400" y="38" text-anchor="middle" font-size="26" font-weight="700" fill="#1f4d38">Il modello dei Social Style</text>
+  <text x="400" y="64" text-anchor="middle" font-size="15" fill="#5f6b64">Assertività (Ask ↔ Tell) e reattività emotiva (Control ↔ Emote)</text>
+
+  <!-- quattro quadranti -->
+  <rect x="130" y="110" width="270" height="260" fill="#e3efe8"/>
+  <rect x="400" y="110" width="270" height="260" fill="#fbf0d6"/>
+  <rect x="130" y="370" width="270" height="260" fill="#eaf0f7"/>
+  <rect x="400" y="370" width="270" height="260" fill="#f8e6d3"/>
+  <rect x="130" y="110" width="540" height="520" fill="none" stroke="#e4ded2" stroke-width="2"/>
+
+  <!-- assi -->
+  <line x1="118" y1="370" x2="682" y2="370" stroke="#26302b" stroke-width="4" marker-start="url(#freccia)" marker-end="url(#freccia)"/>
+  <line x1="400" y1="98" x2="400" y2="642" stroke="#26302b" stroke-width="4" marker-start="url(#freccia)" marker-end="url(#freccia)"/>
+
+  <!-- etichette degli assi -->
+  <text x="400" y="90" text-anchor="middle" font-size="16" font-weight="700" fill="#26302b">CONTROL · riservato, sui fatti</text>
+  <text x="400" y="668" text-anchor="middle" font-size="16" font-weight="700" fill="#26302b">EMOTE · mostra le emozioni</text>
+  <text x="112" y="364" text-anchor="end" font-size="16" font-weight="700" fill="#26302b">ASK</text>
+  <text x="112" y="386" text-anchor="end" font-size="13" fill="#5f6b64">chiede</text>
+  <text x="688" y="364" text-anchor="start" font-size="16" font-weight="700" fill="#26302b">TELL</text>
+  <text x="688" y="386" text-anchor="start" font-size="13" fill="#5f6b64">afferma</text>
+
+  <!-- stili -->
+  <text x="152" y="162" font-size="26" font-weight="700" fill="#1f4d38">Analitico</text>
+  <text x="152" y="196" font-size="17" fill="#26302b">Dati e fatti</text>
+  <text x="152" y="222" font-size="17" fill="#26302b">Precisione</text>
+  <text x="152" y="248" font-size="17" fill="#26302b">Decide con calma</text>
+
+  <text x="426" y="162" font-size="26" font-weight="700" fill="#7a5a12">Direttivo</text>
+  <text x="426" y="196" font-size="17" fill="#26302b">Risultati</text>
+  <text x="426" y="222" font-size="17" fill="#26302b">Rapidità</text>
+  <text x="426" y="248" font-size="17" fill="#26302b">Controllo della situazione</text>
+
+  <text x="152" y="422" font-size="26" font-weight="700" fill="#1f4d38">Amichevole</text>
+  <text x="152" y="456" font-size="17" fill="#26302b">Relazione e armonia</text>
+  <text x="152" y="482" font-size="17" fill="#26302b">Ascolto</text>
+  <text x="152" y="508" font-size="17" fill="#26302b">Ricerca del consenso</text>
+
+  <text x="426" y="422" font-size="26" font-weight="700" fill="#7a5a12">Espressivo</text>
+  <text x="426" y="456" font-size="17" fill="#26302b">Entusiasmo</text>
+  <text x="426" y="482" font-size="17" fill="#26302b">Idee e visione d'insieme</text>
+  <text x="426" y="508" font-size="17" fill="#26302b">Coinvolge le persone</text>
+
+  <text x="400" y="714" text-anchor="middle" font-size="13" fill="#5f6b64">Schema originale, ispirato al modello degli stili sociali di Merrill e Reid</text>
+</svg>
