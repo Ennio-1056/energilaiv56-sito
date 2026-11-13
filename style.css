@@ -82,3 +82,13 @@ section .card-body h3{margin:0 0 .5rem;font-size:1.1rem;line-height:1.3;min-heig
 .hero.con-ritratto .hero-testo{flex:1 1 380px;min-width:0}
 .hero-ritratto{flex:0 0 240px;width:240px;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:16px;border:1px solid var(--line);box-shadow:0 6px 20px rgba(38,48,43,.12);background:#fff}
 @media (max-width:700px){.hero.con-ritratto{gap:1.5rem}.hero-ritratto{flex-basis:200px;width:200px}}
+
+/* Lettura ad alta voce (leggi.js) */
+.leggi{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem;margin:0 0 1.4rem;padding:.7rem .9rem;border:1px solid var(--line);border-radius:12px;background:#fff}
+.leggi button{font:inherit;font-family:system-ui,sans-serif;font-size:.95rem;padding:.45rem .9rem;border-radius:999px;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer}
+.leggi button:hover{background:var(--accent-dark)}
+.leggi .leggi-stop{background:#fff;color:var(--accent-dark)}
+.leggi button:disabled{opacity:.45;cursor:default}
+.leggi-vel{font-family:system-ui,sans-serif;font-size:.9rem;color:#555;margin-left:auto}
+.leggi-vel select{font:inherit;margin-left:.3rem;padding:.25rem .4rem;border:1px solid var(--line);border-radius:8px;background:#fff}
+.leggendo{background:#fff6d6;border-radius:6px;box-shadow:0 0 0 .35rem #fff6d6}
