@@ -20,3 +20,6 @@ immagini/Designer*.png
 
 # Diario privato: resta solo sul mio computer, non si pubblica mai
 privato/
+
+# Copertina di un libro (copyright): non si pubblica
+immagini/Le non cose.png
